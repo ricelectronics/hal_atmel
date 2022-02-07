@@ -37,3 +37,4 @@ License Link:
 
 Patch List:
    * Fix XDMAC_CHID register name.
+   * Add old style USART definitions to prevent warnings.
