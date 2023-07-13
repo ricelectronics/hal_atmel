@@ -1,3 +1,6 @@
+# Copyright (c) 2023 Gerson Fernando Budke
+# SPDX-License-Identifier: Apache-2.0
+
 Atmel SAM V71B
 ##############
 
@@ -34,3 +37,6 @@ License:
 
 License Link:
    https://www.apache.org/licenses/LICENSE-2.0
+
+Patch List:
+   * Fix XDMAC_CHID register name.

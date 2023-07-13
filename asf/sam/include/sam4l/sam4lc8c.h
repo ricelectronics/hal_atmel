@@ -379,7 +379,6 @@ void LCDCA_Handler               ( void );
  * \brief Configuration of the Cortex-M4 Processor and Core Peripherals
  */
 
-#define LITTLE_ENDIAN          1        
 #define __BB_PRESENT           0         /*!< BIT_BANDING present or not */
 #define __CLKGATE_PRESENT      1         /*!< CLKGATE present or not */
 #define __CM4_REV              1         /*!< Core revision r0p1 */
@@ -832,6 +831,9 @@ void LCDCA_Handler               ( void );
 #define US_MR_NBSTOP_2_BIT    US_MR_NBSTOP_2
 #define US_MR_NBSTOP_1_5_BIT  US_MR_NBSTOP_1_5
 #define US_MR_NBSTOP_1_BIT    US_MR_NBSTOP_1
+#define US_MR_CHRL_5_BIT      US_MR_CHRL_5
+#define US_MR_CHRL_6_BIT      US_MR_CHRL_6
+#define US_MR_CHRL_7_BIT      US_MR_CHRL_7
 #define US_MR_CHRL_8_BIT      US_MR_CHRL_8
 #define US_MR_PAR_NO          US_MR_PAR_NONE
 #define US_MR_PAR_MULTIDROP   US_MR_PAR_MULTI

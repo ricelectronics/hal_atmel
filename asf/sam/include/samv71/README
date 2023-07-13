@@ -1,3 +1,6 @@
+# Copyright (c) 2023 Gerson Fernando Budke
+# SPDX-License-Identifier: Apache-2.0
+
 Atmel SAM V71
 #############
 
@@ -37,3 +40,4 @@ License Link:
 
 Patch List:
    * Fix the GMAC priority queue registers to match the datasheet.
+   * Fix XDMAC_CHID register name.
